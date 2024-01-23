@@ -19,7 +19,10 @@ from langchain.chains import RetrievalQA
 #VECTARA_API_KEY = os.getenv('VECTARA_API_KEY')
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+#genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+
+# Streamlit Code
+st.title("Invoice App - Welcome")
 
 ## Function to load Gemini Pro Vision
 
