@@ -6,11 +6,16 @@ from PIL import Image
 import google.generativeai as genai
 
 #from langchain.document_loaders import TextLoader
+#from langchain.embeddings import OpenAIEmbeddings
+#from langchain.llms import OpenAI 
+#from langchain.vectorstores import Vectara
+
 from langchain_community.document_loaders import TextLoader
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.llms import OpenAI 
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.llms import OpenAI
+from langchain_community.vectorstores import Vectara
+
 from langchain.text_splitter import CharacterTextSplitter
-from langchain.vectorstores import Vectara
 from langchain.chains import RetrievalQA
 
 
