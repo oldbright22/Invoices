@@ -5,7 +5,8 @@ import os
 from PIL import Image
 import google.generativeai as genai
 
-from langchain.document_loaders import TextLoader
+#from langchain.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.llms import OpenAI 
 from langchain.text_splitter import CharacterTextSplitter
